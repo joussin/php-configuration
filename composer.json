@@ -1,9 +1,9 @@
 {
-    "name": "joussin/package-template",
+    "name": "joussin/php-configuration",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/joussin/package-template",
-    "description": "Development package template",
+    "homepage": "https://github.com/joussin/php-configuration",
+    "description": "php-configuration",
     "keywords": ["package"],
     "authors": [
         {
@@ -14,7 +14,7 @@
     ],
 
     "require": {
-        "php": ">=7.2.0"
+        "php": "^8.1"
     },
 
     "require-dev": {
@@ -23,7 +23,7 @@
 
     "autoload": {
         "psr-4": {
-            "Joussin\\PackageTemplate\\": "src/"
+            "Joussin\\Component\\Configuration\\": "src/"
         },
         "files": [
             "src/helpers/functions.php"
