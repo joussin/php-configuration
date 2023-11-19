@@ -1,9 +1,9 @@
 {
-    "name": "joussin/php-configuration",
+    "name": "joussin/php-support",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/joussin/php-configuration",
-    "description": "php-configuration",
+    "homepage": "https://github.com/joussin/php-support",
+    "description": "php-support",
     "keywords": ["package"],
     "authors": [
         {
@@ -23,7 +23,7 @@
 
     "autoload": {
         "psr-4": {
-            "Joussin\\Component\\Configuration\\": "src/"
+            "Joussin\\Component\\Support\\": "src/"
         },
         "files": [
             "src/helpers/functions.php"

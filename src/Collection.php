@@ -1,6 +1,6 @@
 <?php
 
-namespace Joussin\Component\Configuration;
+namespace Joussin\Component\Support;
 
 class Collection extends \ArrayObject
 {
