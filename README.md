@@ -15,11 +15,18 @@ return [
 $path = "example.php";
 $items = require $path;
 
-$conf = new Config($items);
+$conf = new Configuration($items);
 
-$path = "example.php";
-$conf = new Config::fromPath($path);
 
+$conf = new Configuration::from($path);
+
+dd(
+    $conf,
+    $conf->all(),
+    $conf->get('first_section'),
+    $conf->get('first_section.one'),
+    $conf->all()
+);
 
 
 ````
